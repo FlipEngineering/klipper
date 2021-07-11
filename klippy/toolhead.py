@@ -11,6 +11,12 @@ import mcu, chelper, kinematics.extruder
 #   seconds), _r is ratio (scalar between 0.0 and 1.0)
 
 # Class to track each move request
+
+###---FLIP---
+
+# This looks like one of the classes to mod / redo prob. when considering seperating the acc/dec and look ahead feature for each stage
+
+###---FLIP-END---
 class Move:
     def __init__(self, toolhead, start_pos, end_pos, speed):
         self.toolhead = toolhead
