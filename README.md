@@ -14,3 +14,7 @@ To begin using Klipper start by
 
 Klipper is Free Software. See the [license](COPYING) or read the
 [documentation](https://www.klipper3d.org/Overview.html).
+
+
+--------
+This version is intended for integration of a scalable artnet controlled system for individual steppers. 
